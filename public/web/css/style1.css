@@ -1,0 +1,288 @@
+@font-face {
+    font-family: 'poppinsbold';
+    src: url('../fonts/poppins-bold-webfont.woff2') format('woff2'),
+         url('../fonts/poppins-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'poppinslight';
+    src: url('../fonts/poppins-light-webfont.woff2') format('woff2'),
+         url('../fonts/poppins-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'poppinsmedium';
+    src: url('../fonts/poppins-medium-webfont.woff2') format('woff2'),
+         url('../fonts/poppins-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'poppinsregular';
+    src: url('../fonts/poppins-regular-webfont.woff2') format('woff2'),
+         url('../fonts/poppins-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'poppinssemibold';
+    src: url('../fonts/poppins-semibold-webfont.woff2') format('woff2'),
+         url('../fonts/poppins-semibold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'poppinsthin';
+    src: url('../fonts/poppins-thin-webfont.woff2') format('woff2'),
+         url('../fonts/poppins-thin-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'poppinsitalic';
+    src: url('../fonts/poppins-italic-webfont.woff2') format('woff2'),
+         url('../fonts/poppins-italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'poppinsblack';
+    src: url('../fonts/poppins-black-webfont.woff2') format('woff2'),
+         url('../fonts/poppins-black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'poppinsextralight';
+    src: url('../fonts/poppins-extralight-webfont.woff2') format('woff2'),
+         url('../fonts/poppins-extralight-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*/==================Header==================/*/
+
+body {font-family: 'poppinsregular';}
+.dark-header-bg { background:#4e4f51 !important;}
+.dark-header-bg .navbar-nav .nav-link {
+    color:#fff;
+}
+
+
+.navbar-light .navbar-nav .nav-link:hover { color:#f8b334;}
+.navbar-light .navbar-nav .nav-link.active { color:#f8b334; border-bottom:1px solid #f8b334;}
+
+
+.navbar-light .navbar-nav .nav-link {
+    color:#000000;
+    margin: 10px 6px;
+	font-size:16px;font-family: 'poppinslight';
+}
+
+
+.radius-lr {
+    border-top-left-radius: 1.5rem !important;
+    border-top-right-radius: 1.5rem !important;
+}
+.modal-content1 {
+    border-radius: 1.5rem !important;
+}
+.inner-header {
+    position: relative;
+    z-index: 9;
+    width: 100%;
+	border-bottom:1px solid #ccc;
+}
+.form-switch1 {
+    padding-left:100px;
+    padding-top: 8px;
+}
+.w70 {
+    line-height: 45px;
+    width: auto;
+    padding-right: 10px;
+}
+
+.page-header {
+    position: relative;
+    z-index: 999;
+    background-color: #f8f9fa;
+    width: 100%;
+}
+.page-header .wrapper {
+    width: 100%;
+    height: 55px;
+    max-height: 55px;
+    background: #4e4f51 !important;
+    padding: 0;
+    left: 0;
+    top: 0;
+    z-index: 1;
+}
+
+.nav-item {font-family: 'poppinslight';}
+
+
+
+.p-6 {
+    padding: 2.5rem !important;
+}
+.pb-6 {
+    padding-bottom: 4.5rem !important;
+}
+
+.v-pill {border-bottom: 1px solid #fff;
+color: #fff;
+padding: 15px;}
+.nav-pills .v-pill.active, .nav-pills .show > .v-pill {
+    color: #000;
+    background-color: #fff;
+}
+.nav-pills .v-pill:first-child, .nav-pills .show > .v-pill:first-child { border-top:1px solid #fff;
+}
+
+
+
+.btn-white {
+    font-weight: 400;
+    background-color: #fff;
+    border-color: #e7eaf3;
+}
+.avatar-xl {
+    width: 5.625rem;
+    height: 5.625rem;
+}
+
+.modal-dialog {
+    margin: 3.75rem auto;
+}
+.closeP-btn { background-color:#fff; border-radius:100px; padding:10px;opacity:1; right:-25px !important; top:-25px; box-shadow:1px 1px #333;}
+.carousel-indicators {
+    bottom: -10px;}
+	
+	.rounded-3 {
+    border-radius: 20px !important;
+}
+
+
+
+
+/*/=================ftooter===================/*/
+.page-footer {
+    position: relative;
+    z-index: 9999999;
+    background-color: #f8f9fa;
+    width: 100%;
+}
+/*/========================/*/
+
+
+
+
+
+.line-draw-animation {
+  position: relative;
+}
+
+.line-draw-animation::before {
+  content: "";
+  width: 0;
+  height: 2px;
+  position: absolute;
+  -webkit-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+  background: #f8b334;
+  right: 0;
+  top: 0;
+  -webkit-transition-delay: 0.2s;
+          transition-delay: 0.2s;
+}
+
+.line-draw-animation::after {
+  content: "";
+  width: 0;
+  height: 2px;
+  position: absolute;
+  -webkit-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+  background: #f8b334;
+  left: 0;
+  bottom: 0;
+  -webkit-transition-delay: 0.6s;
+          transition-delay: 0.6s;
+}
+
+.line-draw-animation:hover::before {
+  width: 100%;
+  -webkit-transition-delay: 0.4s;
+          transition-delay: 0.4s;
+}
+
+.line-draw-animation:hover::after {
+  width: 100%;
+  -webkit-transition-delay: 0s;
+          transition-delay: 0s;
+}
+
+.line-draw-animation:hover .line-draw-inner::before {
+  height: 100%;
+  -webkit-transition-delay: 0.6s;
+          transition-delay: 0.6s;
+}
+
+.line-draw-animation:hover .line-draw-inner::after {
+  height: 100%;
+  -webkit-transition-delay: 0.2s;
+          transition-delay: 0.2s;
+}
+
+.line-draw-animation .line-draw-inner::after {
+  -webkit-transition-delay: 0.4s;
+          transition-delay: 0.4s;
+  right: 0;
+  bottom: 0;
+}
+
+.line-draw-animation .line-draw-inner::before {
+  -webkit-transition-delay: 0s;
+          transition-delay: 0s;
+  left: 0;
+  top: 0;
+}
+
+.line-draw-inner::before {
+  content: "";
+  width: 2px;
+  height: 0;
+  position: absolute;
+  -webkit-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+  background: #f8b334;
+}
+
+.line-draw-inner::after {
+  content: "";
+  width: 2px;
+  height: 0;
+  position: absolute;
+  -webkit-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+  background: #f8b334;
+}
+
+
+.info-box { width:auto; display:flex; margin-top:10px;}
+.info-box ul{list-style:none; padding:0px;}
+.info-box li{ background:url(img/tick.png) no-repeat left 9px; width:auto; display:flex; position:relative; list-style:none; padding-left:30px; line-height:35px;}

@@ -1,0 +1,853 @@
+@font-face {
+    font-family: 'poppinsbold';
+    src: url('../fonts/poppins-bold-webfont.woff2') format('woff2'),
+         url('../fonts/poppins-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'poppinslight';
+    src: url('../fonts/poppins-light-webfont.woff2') format('woff2'),
+         url('../fonts/poppins-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'poppinsmedium';
+    src: url('../fonts/poppins-medium-webfont.woff2') format('woff2'),
+         url('../fonts/poppins-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'poppinsregular';
+    src: url('../fonts/poppins-regular-webfont.woff2') format('woff2'),
+         url('../fonts/poppins-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'poppinssemibold';
+    src: url('../fonts/poppins-semibold-webfont.woff2') format('woff2'),
+         url('../fonts/poppins-semibold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'poppinsthin';
+    src: url('../fonts/poppins-thin-webfont.woff2') format('woff2'),
+         url('../fonts/poppins-thin-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'poppinsitalic';
+    src: url('../fonts/poppins-italic-webfont.woff2') format('woff2'),
+         url('../fonts/poppins-italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'poppinsblack';
+    src: url('../fonts/poppins-black-webfont.woff2') format('woff2'),
+         url('../fonts/poppins-black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'poppinsextralight';
+    src: url('../fonts/poppins-extralight-webfont.woff2') format('woff2'),
+         url('../fonts/poppins-extralight-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*/==================Header==================/*/
+
+body {font-family: 'poppinsregular';}
+.dark-header-bg { background:#4e4f51 !important;}
+.dark-header-bg .navbar-nav .nav-link {
+    color:#fff;
+}
+
+
+.navbar-light .navbar-nav .nav-link:hover { color:#f8b334;}
+.navbar-light .navbar-nav .nav-link.active { color:#f8b334; border-bottom:1px solid #f8b334;}
+
+
+.navbar-light .navbar-nav .nav-link {
+    color:#000000;
+    margin: 0px 6px;
+	font-size:16px;font-family: 'poppinslight';
+}
+
+
+.radius-lr {
+    border-top-left-radius: 1.5rem !important;
+    border-top-right-radius: 1.5rem !important;
+}
+.modal-content1 {
+    border-radius: 1.5rem !important;
+}
+.inner-header {
+    position: relative;
+    z-index: 9;
+    width: 100%;
+	border-bottom:1px solid #ccc;
+}
+.form-switch1 {
+    padding-left:100px;
+    padding-top: 8px;
+}
+.w70 {
+    line-height: 45px;
+    width: auto;
+    padding-right: 10px;
+}
+
+.page-header {
+    position: relative;
+    z-index: 999;
+    background-color: #f8f9fa;
+    width: 100%;
+}
+.page-header .wrapper {
+    width: 100%;
+    height: 55px;
+    max-height: 55px;
+    background: #4e4f51 !important;
+    padding: 0;
+    left: 0;
+    top: 0;
+    z-index: 1;
+}
+
+.nav-item {font-family: 'poppinslight';}
+
+
+
+.p-6 {
+    padding: 2.5rem !important;
+}
+.pb-6 {
+    padding-bottom: 4.5rem !important;
+}
+
+.v-pill {border-bottom: 1px solid #fff;
+color: #fff;
+padding: 15px;}
+.nav-pills .v-pill.active, .nav-pills .show > .v-pill {
+    color: #000;
+    background-color: #fff;
+}
+.nav-pills .v-pill:first-child, .nav-pills .show > .v-pill:first-child { border-top:1px solid #fff;
+}
+
+
+
+.btn-white {
+    font-weight: 400;
+    background-color: #fff;
+    border-color: #e7eaf3;
+}
+.avatar-xl {
+    width: 5.625rem;
+    height: 5.625rem;
+}
+
+
+.avatar-lg {
+    width: 8rem;
+    height: 8rem;
+}
+
+/**.modal-dialog {
+    margin: 3.75rem auto;
+}**/
+.closeP-btn { background-color:#fff; border-radius:100px; padding:10px;opacity:1; right:-25px !important; top:-25px; box-shadow:1px 1px #333;}
+.carousel-indicators {
+    bottom: -10px;}
+	
+	.rounded-3 {
+    border-radius: 20px !important;
+}
+
+.container.pricing-page {
+    padding-bottom: 120px;
+}
+
+
+/*/=================ftooter===================/*/
+.page-footer {
+    position: fixed;
+    z-index: 9;
+    background-color: #f8f9fa;
+    width: 100%;
+    bottom: 0;
+}
+/*/========================/*/
+
+
+
+
+
+.line-draw-animation {
+  position: relative;
+   color:#000000;
+}
+ .line-draw-animation:hover {
+   color:#f8b334;
+    -webkit-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+    -webkit-transition-delay: 0.2s;
+          transition-delay: 0.2s;
+}
+
+
+
+.line-draw-animation::before {
+  content: "";
+  width: 0;
+  height: 2px;
+  position: absolute;
+  -webkit-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+  background: #f8b334;
+  right: 0;
+  top: 0;
+  -webkit-transition-delay: 0.2s;
+          transition-delay: 0.2s;
+}
+
+.line-draw-animation::after {
+  content: "";
+  width: 0;
+  height: 2px;
+  position: absolute;
+  -webkit-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+  background: #f8b334;
+  left: 0;
+  bottom: 0;
+  -webkit-transition-delay: 0.6s;
+          transition-delay: 0.6s;
+}
+
+.line-draw-animation:hover::before {
+  width: 100%;
+  -webkit-transition-delay: 0.4s;
+          transition-delay: 0.4s;
+}
+
+.line-draw-animation:hover::after {
+  width: 100%;
+  -webkit-transition-delay: 0s;
+          transition-delay: 0s;
+}
+
+.line-draw-animation:hover .line-draw-inner::before {
+  height: 100%;
+  -webkit-transition-delay: 0.6s;
+          transition-delay: 0.6s;
+}
+
+.line-draw-animation:hover .line-draw-inner::after {
+  height: 100%;
+  -webkit-transition-delay: 0.2s;
+          transition-delay: 0.2s;
+}
+
+.line-draw-animation .line-draw-inner::after {
+  -webkit-transition-delay: 0.4s;
+          transition-delay: 0.4s;
+  right: 0;
+  bottom: 0;
+}
+
+.line-draw-animation .line-draw-inner::before {
+  -webkit-transition-delay: 0s;
+          transition-delay: 0s;
+  left: 0;
+  top: 0;
+}
+
+.line-draw-inner::before {
+  content: "";
+  width: 2px;
+  height: 0;
+  position: absolute;
+  -webkit-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+  background: #f8b334;
+}
+
+.line-draw-inner::after {
+  content: "";
+  width: 2px;
+  height: 0;
+  position: absolute;
+  -webkit-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+  background: #f8b334;
+}
+
+
+
+/* Slow-motion Zoom Container */
+.img-hover-zoom--slowmo img {
+  transform-origin: 50% 65%;
+  transition: transform 5s, filter 3s ease-in-out;
+  filter: brightness(150%);
+}
+
+/* The Transformation */
+.img-hover-zoom--slowmo:hover img {
+  filter: brightness(100%);
+  transform: scale(3);
+}
+
+.images {
+    position: relative;
+    overflow: hidden; border-radius:8px;
+}
+
+.btn-outline-white {
+    border-color: #dbd8e9;
+    color: #5c5776;
+}
+
+.round-40 { border-radius:40px !important;}
+
+.info-box { width:auto; display:flex; margin-top:10px;}
+.info-box ul{list-style:none; padding:0px;}
+.info-box li{ background:url(../../img/tick.png) no-repeat left 9px; width:auto; display:flex; position:relative; list-style:none; padding-left:30px; line-height:35px;}
+
+
+.md-form input:not([type]), .md-form input[type="text"]:not(.browser-default), .md-form input[type="password"]:not(.browser-default), .md-form input[type="email"]:not(.browser-default), .md-form input[type="url"]:not(.browser-default), .md-form input[type="time"]:not(.browser-default), .md-form input[type="date"]:not(.browser-default), .md-form input[type="datetime"]:not(.browser-default), .md-form input[type="datetime-local"]:not(.browser-default), .md-form input[type="tel"]:not(.browser-default), .md-form input[type="number"]:not(.browser-default), .md-form input[type="search"]:not(.browser-default), .md-form input[type="phone"]:not(.browser-default), .md-form input[type="search-md"], .md-form textarea.md-textarea {
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+    background-color: transparent;
+    border: 0;
+        border-bottom-color: currentcolor;
+        border-bottom-style: none;
+        border-bottom-width: 0px;
+    border-bottom: 1px solid #ced4da;
+    border-radius: 0;
+    outline: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    -webkit-transition: border-color .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+    transition: border-color .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+}
+.form-floating > .form-control, .form-floating > .form-select {
+    height: calc(3.5rem + 2px);
+    padding: 1rem .75rem;
+}
+
+.md-form textarea.md-textarea {
+   padding-top: 20px !important;
+    overflow-y: hidden;
+}
+
+.avatar-xs {
+    width: 2.5rem;
+    height: 2.5rem;
+    font-size: .5rem;
+}
+.font-size-xs {
+    font-size: .75rem !important;
+}
+
+/****************************************************************************login-page-my-code-css******************************************************/
+.mobile-secure img {
+    width: 100%;
+    padding: 20px 0px;
+}
+.full-box-signin {
+   padding: 0;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+    /* margin: 10px 0 0; */
+    max-width: 900px;
+    margin: 30px auto;
+    
+}
+
+.full-box-signin .card {
+    border: none;
+    
+}
+.col-lg-6.col-md-8.py-8.py-xl-0.form-box {
+   /** background: #ecf1f5;**/
+}
+.full-box-signin .card {
+       border: 20px solid #ecf1f5;
+}
+.full-box-signin .card-body {
+   /** padding: 20px 40px 77px 40px !important;**/
+    background-image: linear-gradient(to left, rgba(255,0,0,0), rgb(248 235 210));
+    padding-bottom: 20px !important;
+}
+
+.form-control:focus {
+    box-shadow: none;
+}
+.copyright {
+    background: #f2c010;
+}
+.copyright p {
+    padding: 8px 0 4px 0;
+    margin-bottom: 0;
+}
+.title-and-breadcrum-box {
+    margin-top: 50px;
+    margin-bottom :20px;
+}
+span.text-end.end-0.float-end.add-icon {
+    margin-left: 12px;
+    position: relative;
+    top: -4px;
+}
+ol.breadcrumb.m-0 {
+    background: none;
+    font-size: 14px;
+}
+/****************************************************************************login-page-my-code-css-end************************************************/
+button.btn.paywith img {
+    background: #6c5796;
+    padding: 0px 12px 3px;
+    border-radius: 5px;
+    width: 130px;
+}
+button.btn.paywith:focus {
+    box-shadow: none;
+}
+/********************************************************************************register-page-css************************************/
+.full-box-register {
+    margin: 30px auto;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+    max-width: 900px;
+    
+}
+
+.full-box-register .card-body {
+    border: 20px solid #ecf1f5;
+    background-image: linear-gradient(to left, rgba(255,0,0,0), rgb(248 235 210));
+    padding: 0 40px !important;
+}
+.full-box-register .card {
+    border: none;
+}
+/********************************************************************************register-page-css-end*********************************/
+
+/*************************************************************************************dashboard-page-css*********************************/
+/**.container.fullpagecontainer {
+    min-height: 62.5vh;
+}**/
+.no-device-full-box .info-box {
+    text-align: center;
+    display: block;
+}
+
+.col-lg-12.no-device-box {
+    margin: 0 auto;
+    max-width: 690px;
+}
+
+.col-lg-12.no-device-box .card-body {
+    padding: 50px 30px;
+}
+/**************************************************************************************dashboard-page-css-end******************************/
+
+/*************************************************************************************otp-css************************************/
+.card {
+    border: none;
+}
+.shadow {
+       box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%) !important;
+}
+
+/************************************************************************************otp-css-end*********************************/
+
+/******************************************************************************forgot-password************************************/
+.forgot-password img {
+    width: 100%;
+        padding: 20px 0;
+}
+
+.full-box-forgot-password {
+    padding: 0;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+    margin: 30px auto;
+    max-width: 900px;
+}
+
+.full-box-forgot-password .card-body {
+   
+    background-image: linear-gradient(to left, rgba(255,0,0,0), rgb(248 235 210));
+        padding-bottom: 85px !important;
+}
+
+
+
+.full-box-forgot-password .card {
+   
+     border: 20px solid #ecf1f5;
+}
+
+.full-box-forgot-password.change-pass .card-body {
+    padding-bottom: 20px !important;
+}
+.full-box-forgot-password.reset-pass .card-body {
+    padding-bottom: 20px !important;
+}
+/******************************************************************************forgot-password-end******************************/
+
+/********************************************************************access-photos-css****************************************/
+.single-box img {
+    width: 100%;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+
+.single-box {
+        margin-bottom: 23px;
+        cursor: pointer;
+        box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+        border-radius: 5px;
+        position: relative;
+        transition: 0.6s;
+        overflow: hidden;
+        min-height: 155px;
+}
+
+.single-box-info {
+    position: absolute;
+    z-index: 9;
+    left: 0;
+    right: 0;
+    bottom: 0px;
+    padding: 6px 6px;
+    opacity: 0;
+   }
+
+.single-box:hover .single-box-info {
+    opacity: 1;
+}
+
+.image-overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: black;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.single-box:hover .image-overlay {
+    opacity: 0.5;
+}
+
+.single-box:hover img {
+    transform: scale(1.2);
+   
+}
+
+.info-image img {
+    width: 25px;
+}
+
+
+
+/**.download-photos-box {
+    margin-bottom: 25px;
+}**/
+
+.view-btn {
+    float: right;
+}
+button.view-btn {
+    background: none;
+    border: none;
+}
+
+button.view-btn:focus {
+    outline: 0;
+}
+.modal-body.gallery img {
+    width: 100%;
+    height:400px;
+}
+.gallery-popup .modal-header {
+    padding: 0;
+    height: 0;
+}
+.gallery-popup button.btn-close {
+    position: relative;
+    top: 3px;
+    right: -9px;
+    z-index: 99;
+    opacity: 1;
+    background: #f1b332;
+    /* width: 20px; */
+    padding: 5px 8px 8px 8px;
+    color: white;
+    border-radius: 5px;
+}
+
+.modal-open .modal {
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+
+/******************************************************************access-photo-end*****************************************/
+
+/*************************************************************profile-page******************************************/
+.edit-profile a {
+    background: #f1b332;
+    padding: 7px 10px;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 13px;
+}
+.myprofile {
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+        margin-top: 20px;
+}
+.profile-image-box {
+    text-align: center;
+}
+.profile-name {
+    text-align: center;
+}
+.edit-profile {
+    text-align: center;
+}
+.left-profile-image-box {
+    padding: 50px 0 25px 0;
+}
+.col-lg-4.profile-page {
+    background: #efefef;
+}
+
+
+/*************************************************************profile-page-end************************************/
+
+/***********************************************************profile-edit*****************************************/
+.image-upload img {
+    width: 25px;
+    cursor: pointer;
+}
+.myimage {
+    display: inline-block;
+    position: relative;
+}
+.image-upload {
+    display: inline-block;
+    position: absolute;
+    z-index: 9;
+    right: -25px;
+    top: 0;
+    opacity: 1;
+}
+
+.myimage:hover .image-upload {
+    opacity: 1;
+}
+
+.edit-profile button {
+    background: #f1b332;
+    padding: 3px 10px;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 13px;
+}
+/********************************************************profile-edit-end*****************************************/
+
+/******************************************************contact-page******************************************/
+.contact-box {
+       width: 16.3%;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+    padding: 20px 10px;
+    display: inline-block;
+    margin-bottom: 5px;
+}
+.icon-box {
+    width: 60px;
+        margin: 0 auto;
+}
+.icon-box img {
+    width: 100%;
+}
+.contact-box .contact-name {
+    padding-top: 10px;
+}
+.contact-box .contact-name p {
+    margin-bottom: 5px;
+}
+.contact-box .contact-num a {
+    text-decoration: none;
+    color: #ffa900;
+}
+/**.full-contact-box {
+    margin-top: 40px;
+}**/
+/****************************************************contact-page-end*************************************/
+
+/********************************************************payment-page*************************************/
+.payment-full-box {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.payment.card-body {
+    padding: 50px 20px;
+    background-image: linear-gradient(to left, rgba(255,0,0,0), rgb(248 235 210));
+    text-align: center;
+    border: 20px solid #ecf1f5;
+}
+
+.payment.card-body .card-title {
+    padding-bottom: 6px;
+   
+}
+.payment-full-box .card-body.box {
+    padding: 0;
+    
+}
+
+.payment-image-box {
+    text-align: center;
+   padding-top: 8px;
+}
+
+
+input.razorpay-payment-button {
+  color: #000;
+    background-color: #ffc107;
+    border-color: #ffc107;
+    border-radius: 40px;
+    padding: 10px 40px;
+    border: 1px solid #f2c010;
+}
+
+input.razorpay-payment-button:hover {
+   background-color: #ffca2c;
+    border-color: #ffc720;
+}
+
+span.validity img {
+    width: 25px;
+}
+span.validity {
+    margin-right: 6px;
+}
+/********************************************************payment-page-end*********************************/
+
+/**********************************************************network-status-popup**************************/
+span.sim img {
+    width: 40px;
+}
+span.sim {
+    margin-right: 8px;
+    position: relative;
+    top: -3px;
+}
+
+/********************************************************network-status-popup-end************************/
+
+/************************************************************phone-location-popup***********************/
+span.map-marker {
+    width: 50px;
+}
+span.map-marker img {
+    width: 100%;
+}
+/************************************************************phone-location-popup-end**********************/
+
+/**************************************************************battery-status***************************/
+span.smart-phone img {
+    width: 40px;
+}
+span.smart-phone {
+    margin-right: 6px;
+}
+span.battery-outer-cover {
+    position: relative;
+}
+.progress.battery {
+    padding: 0;
+    transform: rotate( 
+-90deg
+ );
+    width: 30px;
+    height: 20px;
+    position: absolute;
+    bottom: -3px;
+    left: 5px;
+    border-radius: 0;
+    background-color: #ffffff;
+}
+
+.battery-outer-cover img {
+    width: 40px;
+    position: relative;
+    z-index: 9;
+}
+
+
+
+/***************************************************************battery-status-end**********************/
+/*******************************************************************pricing*****************************/
+.pricing-details span.badge.bg-danger,.pricing-details span.badge.bg-success {
+   font-size: 15px;
+    position: absolute;
+    top: 9px;
+    left: -26px;
+    transform: rotate( 
+-45deg
+ );
+    padding: 10px 30px;
+    border-radius: 30px;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+}
+
+.pricing-details .card {
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+}
+/*******************************************************************pricing-end***********************/
+
+/****************************************************************subscription***************************/
+.upgrade p {
+    margin-bottom: 0;
+}
+/***************************************************************subscription-end*************************/
+button.btn-close.email-alert-btn {
+    float: right;
+}
+.space-from-bottom {
+    padding-bottom: 120px;
+}
+.payment-image-box img {
+    padding-top: 30px;
+}
+span.back-btn {
+       position: relative;
+    top: -10px;
+}
+
